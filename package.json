@@ -44,6 +44,7 @@
     "gulp-babel": "^6.1.2",
     "jquery": "*",
     "lodash": "*",
+    "nodemon": "*",
     "prop-types": "^15.6.0",
     "react": "*",
     "react-addons-test-utils": "*",
