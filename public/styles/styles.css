@@ -1,0 +1,143 @@
+/*
+  CIS 197 - React HW
+  Author - Devesh Dayal
+  The one and only CSS stylesheet for the page. Feel free to change things around!
+*/
+
+@font-face {
+  font-family: 'Arcade Classic';
+  src: url(../fonts/ARCADECLASSIC.TTF);
+}
+
+@font-face {
+  font-family: 'Arcade Rounded';
+  src: url(../fonts/ARCADE_R.TTF);
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Arcade Classic';
+}
+
+.game-component {
+  width: 783px;
+}
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+}
+
+#top-banner {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#top-banner > div {
+  line-height: 1;
+  letter-spacing: 2px;
+  padding: 0;
+}
+
+#steps {
+  color: rgb(255,0,0);
+}
+
+#living-cells {
+  color: rgb(0,255,0);
+}
+
+#score {
+  color: rgb(0,0,255);
+}
+
+#high-score {
+  color: rgb(255,255,0);
+}
+
+.stats {
+  color: rgb(255,255,255);
+}
+
+.title {
+  font-family: 'Arcade Rounded';
+  color: rgb(255,0,0);
+  text-align: center;
+  line-height: 1;
+  font-size: 2rem;
+  margin: 2.5rem 0;
+}
+
+.board-component {
+  margin: auto;
+  box-sizing: content-box; /* Keeps the border outside of box dimensions */
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.cell {
+  display:block;
+  float:left;
+  border: none;
+  height:10px;
+  width:10px;
+  user-select:none;
+}
+
+.cell:hover {
+  background-color:#f00
+}
+
+.cell.alive {
+  background-color:#178DDC
+}
+
+.controls > .button-header {
+  color: rgb(0,255,255);
+}
+
+.seeds > .button-header {
+  color: rgb(255,255,0);
+}
+
+.button-header, .my-button {
+  letter-spacing: 2px;
+}
+
+.button-header {
+  color: white;
+  font-size: 1.375rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.my-button {
+  color: rgb(255,255,255);
+  background-color: transparent;
+  border: none;
+  font-size: 1.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.instructions {
+  margin-top: 1rem;
+  letter-spacing: 2px;
+}
+
+.instructions-header {
+  color: rgb(255, 255, 0);
+  text-align: right;
+  padding: 0 1em 0 0;
+}
+
+.instructions-text {
+  color: rgb(255, 255, 255);
+  padding-left: 0;
+}
+
+.loading {
+  text-align: center;
+  font-size: 20px;
+  padding: auto;
+}
