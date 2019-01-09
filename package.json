@@ -1,12 +1,12 @@
 {
-  "name": "CIS197-React-HW",
+  "name": "Conway Game of Life",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon app.js --exec babel-node --presets es2015",
     "test": "mocha --compilers jsx:babel-register"
   },
-  "author": "Devesh Dayal, Steve Vitali",
+  "author": "Devesh Dayal, Steve Vitali, Tyrell McCurbin",
   "devDependencies": {
     "babel-preset-react": "*",
     "babel-register": "^6.23.0",
